@@ -2,7 +2,7 @@
 
 ## Environment
 - Application: Kittygram frontend demo (QA training environment)
-- Environment: Test / Staging
+- Environment: Test
 - Browser: Mozilla Firefox 140.0.2
 - OS: Windows 10
 
