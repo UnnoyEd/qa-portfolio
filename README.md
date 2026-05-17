@@ -2,8 +2,8 @@
 
 ## Project Overview
 
-This repository contains manual QA test documentation for a web application.
-It includes test cases and bug reports covering authentication and form validation features. 
+This repository contains manual QA test documentation for a web application, including test cases and bug reports for authentication and form validation features.
+The project demonstrates practical QA skills in test design, defect reporting, and structured documentation using Markdown and GitHub. It focuses on validating functional behavior, input constraints, and UI interactions in a real-world testing scenario.
 
 The goal of this project is to demonstrate practical knowledge of:
 
