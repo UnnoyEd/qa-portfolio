@@ -2,12 +2,13 @@
 
 ## Project Overview
 
-This repository contains manual test cases created for QA practice and portfolio purposes.
+This repository contains manual QA test documentation for a web application.
+It includes test cases and bug reports covering authentication and form validation features. 
 
 The goal of this project is to demonstrate practical knowledge of:
 
 - Manual test case design
-- Boundary Value Analysis (BVA)
+- Boundary Value Analysis
 - Equivalence Partitioning
 - Positive and negative testing
 - UI and functional validation
@@ -21,7 +22,7 @@ The goal of this project is to demonstrate practical knowledge of:
 This project includes test cases for the following areas:
 
 - Login functionality
-- Registration (Sign Up) functionality
+- Registration functionality
 - Payment form validation
 - Field validation (including boundary value analysis)
 - UI elements and button behavior
@@ -34,12 +35,11 @@ Each module focuses on realistic web application testing scenarios.
 
 The following QA techniques were applied:
 
-- Boundary Value Analysis (BVA)
+- Boundary Value Analysis
 - Equivalence Partitioning
-- Positive testing (valid user behavior)
-- Negative testing (invalid input handling)
-- UI state validation (buttons, navigation)
-- Form validation testing
+- Positive testing 
+- Negative testing 
+- UI validation testing
 
 ---
 
@@ -56,10 +56,14 @@ The following QA techniques were applied:
 |
 /bug-reports
 |
+├── login_bugs.md
+├── payment_form_bugs.md
+└── registration_bugs.md
+|
 README.md
 ```
 
-Each folder contains Markdown files with structured test cases grouped by feature.
+Each folder contains Markdown files grouped by application feature for better readability and scalability.
 
 ---
 
@@ -69,7 +73,6 @@ Each test case follows a consistent structure:
 
 - Test Case ID (TC-001, TC-002, etc.)
 - Title / Description
-- Preconditions (if applicable)
 - Steps
 - Expected Result
 
@@ -88,7 +91,18 @@ System processes input successfully.
 
 ## Bug Reports
 
-Bug reports will be added in a separate section of this repository later.
+Bug reports are documented separately for each feature module.
+
+Each bug report follows a consistent structure:
+
+- Bug report ID (BR-001, BR-002, etc.)
+- Related Test Case
+- Issue
+- Reproduction Steps
+- Expected Result
+- Actual Result
+- Severity
+
 
 ---
 
@@ -103,14 +117,7 @@ This repository was created as part of a QA learning journey to demonstrate the 
 
 ---
 
-## Key Highlight
-
-This project demonstrates structured test design using boundary value analysis and equivalence partitioning applied to real web form validation scenarios.
-
----
-
 ## Author
 
-Created by: Natalia 
-
+Natalia 
 Aspiring QA Engineer focused on manual testing and test automation fundamentals.
