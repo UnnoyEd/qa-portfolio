@@ -47,9 +47,16 @@ The following QA techniques were applied:
 
 ```
 /test-cases
-/authentication
-/registration
-/payment-form
+|
+├── authentication
+|   ├── login_tests.md
+|   └── registration_tests.md
+├── form_validation
+|   └── payment_form_validation.md
+|
+/bug-reports
+|
+README.md
 ```
 
 Each folder contains Markdown files with structured test cases grouped by feature.
