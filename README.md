@@ -120,4 +120,5 @@ This repository was created as part of a QA learning journey to demonstrate the 
 ## Author
 
 Natalia 
+
 Aspiring QA Engineer focused on manual testing and test automation fundamentals.
